@@ -11,7 +11,7 @@ import {
   ReferenceLine,
 } from "recharts";
 import ApiService from "../service/ApiService";
-import "../style/UserPerformance.css";
+import "../style/UserPerformace.css";
 
 const UserPerformance = () => {
   const [username, setUsername] = useState("");
@@ -143,4 +143,5 @@ const UserPerformance = () => {
 };
 
 export default UserPerformance;
+
 
